@@ -1,0 +1,25 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "jenis": "individu",
+      "nama": "aji sukmo",
+      "waktu": "pagi",
+      "scan": "gambar.jpg"
+    },
+    {
+      "jenis": "kelompok",
+      "nama": "Sule",
+      "waktu": "Sore",
+      "scan": "",
+      "id": 1
+    },
+    {
+      "jenis": "individu",
+      "nama": "jeje",
+      "waktu": "Sore",
+      "scan": "",
+      "id": 2
+    }
+  ]
+}
