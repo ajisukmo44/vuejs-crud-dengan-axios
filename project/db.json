@@ -1,0 +1,11 @@
+{
+  "data": [
+    {
+      "id": 0,
+      "jenis": "individu",
+      "nama": "aji sukmo",
+      "waktu": "pagi",
+      "scan": "gambar.jpg"
+    }
+  ]
+}
