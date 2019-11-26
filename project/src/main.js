@@ -1,6 +1,7 @@
 import Vue from 'vue'
 
 import Select from 'ant-design-vue/lib/select'
+import Radio from 'ant-design-vue/lib/radio'
 import Table from 'ant-design-vue/lib/table'
 import Form from 'ant-design-vue/lib/form'
 import Layout from 'ant-design-vue/lib/layout'
@@ -22,6 +23,7 @@ Vue.use(Layout);
 Vue.use(Menu);
 Vue.use(Form);
 Vue.use(Table);
+Vue.use(Radio);
 
 Vue.config.productionTip = false
 

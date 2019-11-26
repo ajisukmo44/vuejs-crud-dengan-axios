@@ -1,25 +1,17 @@
-{
-  "data": [
+
     {
-      "id": 0,
-      "jenis": "individu",
-      "nama": "aji sukmo",
-      "waktu": "pagi",
-      "scan": "gambar.jpg"
-    },
-    {
-      "jenis": "kelompok",
-      "nama": "Sule",
-      "waktu": "Sore",
-      "scan": "",
-      "id": 1
-    },
-    {
-      "jenis": "individu",
-      "nama": "jeje",
-      "waktu": "Sore",
-      "scan": "",
-      "id": 2
+      "users": [
+        {
+          "nama": "Aji Sukmo",
+          "alamat": "Sleman",
+          "jenis_kelamin": 1,
+          "email": "ajisuk@gmail.com",
+          "no_hp": "0877415144",
+          "no_ktp": "1111",
+          "scan_ktp": "gb.img",
+          "username": "jisuk44",
+          "password": "polengan1976",
+          "id": 1
+        }
+      ]
     }
-  ]
-}

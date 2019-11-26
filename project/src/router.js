@@ -1,6 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+
 import Home from './views/Home.vue'
+import About from './views/About.vue'
+import Invitation from './views/invitation.vue'
+import Cetak from './views/cetak.vue'
+import Daftar from './views/daftar.vue'
+import Login from './views/Login.vue'
+import Profil from './views/profil.vue'
 
 Vue.use(Router)
 
@@ -10,16 +17,39 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'login',
+      component: Login
     },
     {
       path: '/about',
       name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (about.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
-    }
+      component: About 
+    },
+    {
+      path: '/invitation',
+      name: 'invitation',
+      component: Invitation
+    },
+    {
+      path: '/cetak',
+      name: 'cetak',
+      component: Cetak
+    },
+    {
+      path: '/daftar',
+      name: 'daftar',
+      component: Daftar
+    },
+    {
+      path: '/home',
+      name: 'home',
+      component: Home
+    },
+    {
+      path: '/profil',
+      name: 'profil',
+      component: Profil
+    },
+   
   ]
 })
