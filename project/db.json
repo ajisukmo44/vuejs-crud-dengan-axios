@@ -1,5 +1,6 @@
 
     {
+<<<<<<< HEAD
       "users": [
         {
           "nama": "Aji Sukmo",
@@ -15,3 +16,13 @@
         }
       ]
     }
+=======
+      "id": 0,
+      "jenis": "individu",
+      "nama": "aji sukmo",
+      "waktu": "pagi",
+      "scan": "gambar.jpg"
+    }
+  ]
+}
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c

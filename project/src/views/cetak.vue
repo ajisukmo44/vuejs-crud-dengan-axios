@@ -20,10 +20,18 @@
             mode="inline"
             style="height: 100%; background: #1A8FFC;"
           >
+<<<<<<< HEAD
                  
       <router-link to="/invitation"><a-button style="margin-bottom:20px; margin-left:5px; margin-top:40px; width:150px" type="default"><a-icon type="file" />INVITATION</a-button></router-link>
            
               <router-link to="/"><a-button style="margin-bottom:20px; margin-left:5px; margin-top:20px; width:150px" type="default"><a-icon type="login"/>LOG OUT</a-button></router-link>
+=======
+             <a-button style="margin-bottom:20px; margin-left:7px; margin-top:40px; width:150px" type="default"><a-icon type="form" />DAFTAR</a-button>
+           
+             <a-button style="margin-bottom:20px; margin-left:7px; margin-top:20px; width:150px" type="default"><a-icon type="login" />MASUK</a-button>
+          
+            <a-button style="margin-bottom:20px; margin-left:7px; margin-top:20px; width:150px" type="default"><a-icon type="file" />UNDANGAN</a-button>
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c
           
 
 
@@ -40,15 +48,35 @@
         </a-layout-content>
       </a-layout>
     </a-layout-content>
+<<<<<<< HEAD
  <a-layout-footer style="text-align: center">
       Front-End ©2019 Praxis Academy
     </a-layout-footer>
+=======
+<Footer />
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c
   </a-layout>
 
   </template>
 
 <script>
 
+<<<<<<< HEAD
+=======
+import Footer from "../components/footer.vue";
+
+      export default {
+      components: {
+        Footer
+      },
+        name: 'app',
+        data(){
+      return{
+      };
+
+        },
+      };
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c
 </script>
 <style>
 #components-layout-demo-top-side .logo {

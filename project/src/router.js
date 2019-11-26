@@ -5,9 +5,13 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Invitation from './views/invitation.vue'
 import Cetak from './views/cetak.vue'
+<<<<<<< HEAD
 import Daftar from './views/daftar.vue'
 import Login from './views/Login.vue'
 import Profil from './views/profil.vue'
+=======
+
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c
 
 Vue.use(Router)
 
@@ -35,6 +39,7 @@ export default new Router({
       name: 'cetak',
       component: Cetak
     },
+<<<<<<< HEAD
     {
       path: '/daftar',
       name: 'daftar',
@@ -51,5 +56,7 @@ export default new Router({
       component: Profil
     },
    
+=======
+>>>>>>> 8802634de4a74f57a917a28e4d3df24c550a058c
   ]
 })
